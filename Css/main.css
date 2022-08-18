@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #999999;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Nav */
+header {
+    width: 90%;
+    height: 80px;
+    margin: auto;
+}
+
+.header-buscador-marco {
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    width: 100%;
+    border-radius: 6px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;  
+    margin: auto;
+}
+
+.header-buscador-marco input{
+    width: 90%;
+    height: 30px;
+    border: 0;
+    color: #1919a1
+}
+
+.header-buscador-marco input:focus{
+    border: 0;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Clases temporales para maquetación */
+.h1200 {
+    height: 1200px;
+}
+.h200 {
+    height: 200px;
+}
+.h60 {
+    height: 60px;
+}
+
+/* Producto */
+
+.w-20 {
+    width: 20%;
+}
+.w-60 {
+    width: 60%;
+}
+.w-80 {
+    width: 80%;
+}
+.h-150 {
+    height: 150px;
+}
+
+.producto{
+    align-items: center;
+}
+
+.producto h3 {
+    font-size: 1.5rem;
+    color: #011864;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.precio {
+    font-size: 2rem;
+}
+
+/* Carrito */
+#iconoCarrito {
+    font-size: 2rem;
+}
+#badgeCarrito {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    font-size: 0.7rem;
+    background-color: #000 !important;
+}
+
+.offcanvas {
+    margin-top: 95px;
+    border-radius: 10px 0 0 0;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 1rem;
+    background-color: #545454;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
